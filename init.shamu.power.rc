@@ -71,3 +71,7 @@ on property:dev.bootcomplete=1
     # Default I/O values
     write /sys/block/mmcblk0/queue/scheduler maple
     write /sys/block/mmcblk0/queue/read_ahead_kb 512
+
+    # Turn on DT2W
+    write /sys/android_touch/doubletap2wake 2
+    write /sys/android_touch/wake_gestures 1
