@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository":  "ScrewdAOSP/proprietary_vendor_moto",
+    "repository":  "DesolationRom-Devices/proprietary_vendor_moto",
     "target_path": "vendor/moto",
-    "branch":      "n7x"
+    "branch":      "n"
   },
   {
     "remote":      "github",
